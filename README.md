@@ -5,5 +5,7 @@ Repository: [https://github.com/Qmanh1804/MusicApp.git]
 
 # Introduce
 **HomeScreen**
+
+
 <img src="MusicApp/app/src/main/res/demo/homeScreen.png" alt="**HomeScreen**" width="300" height="auto">
 
