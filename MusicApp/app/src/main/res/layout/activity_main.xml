@@ -27,7 +27,7 @@
             android:layout_marginEnd="8dp"
             android:text="Album"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:gravity="center"
             android:text="Nhạc Việt"
             android:textColor="@color/white"
-            android:textSize="24dp"
+            android:textSize="30dp"
             android:textStyle="bold" />
     </LinearLayout>
 
