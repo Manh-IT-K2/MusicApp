@@ -4,4 +4,5 @@ Title: [MusicApp]
 Repository: [https://github.com/Qmanh1804/MusicApp.git]
 
 # Introduce
-![HomeScreeen](MusicApp/app/src/main/res/demo/homeScreen.png)
+<img src="MusicApp/app/src/main/res/demo/homeScreen.png" alt="**HomeScreen**" width="300" height="auto">
+
