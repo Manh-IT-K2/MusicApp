@@ -1,6 +1,7 @@
 package com.example.musicapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.MediaPlayer;
@@ -102,6 +103,18 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MusicViewHol
                             // Đổi biểu tượng của ImageButton thành biểu tượng tạm dừng
                             playButton.setImageResource(android.R.drawable.ic_media_pause);
                         }
+                    }
+                }
+            });
+
+            imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    int position = getAdapterPosition();// Lấy vị trí khi nhấn
+                    if (position != RecyclerView.NO_POSITION) { //Vị trí hợp lệ
+                        Intent intent = new Intent(context, MusicPage.class);
+                        intent.putExtra("position", position);
+                        context.startActivity(intent);
                     }
                 }
             });

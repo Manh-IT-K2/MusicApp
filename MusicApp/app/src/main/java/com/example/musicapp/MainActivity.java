@@ -13,6 +13,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private MusicAdapter musicAdapter;
+    public static List<Music> musicList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Khởi tạo danh sách nhạc
-        List<Music> musicList = new ArrayList<>();
         musicList.add(new Music("Simple Love", "Artist 1", R.drawable.bird_1, R.raw.simplelove));
         musicList.add(new Music("Có Hẹn Với Thanh Xuân", "Artist 2", R.drawable.bird_2,R.raw.cohenvoithanhxuan));
         musicList.add(new Music("Đừng Xem Ai Đó Là Cả Thế Giới", "Artist 3", R.drawable.bird_3,R.raw.dungxemaidolacathegioi));
